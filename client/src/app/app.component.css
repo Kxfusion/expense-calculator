@@ -1,0 +1,27 @@
+h1 {
+  text-align: center;
+  margin: 0;
+  width: 100%;
+}
+
+.app-container {
+  border: 2px inset rgb(180, 166, 166);
+  background-color: seashell;
+  margin-top: 15%;
+  margin-left: 25%;
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ui-container {
+  width: 70%;
+}
+
+.person-info-container {
+  width: 25%;
+  border: 1px solid rgb(107, 99, 99);
+  border-radius: 5%;
+  margin: 1%;
+}

@@ -1,0 +1,20 @@
+.ng-valid[required], .ng-valid.required {
+  background-color: #96f396;
+}
+
+.ng-invalid:not(form)  {
+  background-color: #ff8383;
+}
+
+.form-label {
+  margin-right: 3px;
+}
+
+.form-input {
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.form-submit {
+  margin: 5px;
+}

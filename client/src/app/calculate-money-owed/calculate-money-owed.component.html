@@ -1,0 +1,8 @@
+<button class="calculate-button" (click)="calculateMoneyOwed()" [disabled]="!isTwoOrMoreExpenseReports">Calculate</button>
+<div class="owed-money-container">
+  <div class="owed-money-entry" *ngFor="let owedMoneyEntry of owedMoneyEntries">
+    <p>
+      {{owedMoneyEntry.name}} owes {{owedMoneyEntry.owedMoney.recipient}}: <strong>{{owedMoneyEntry.owedMoney.amount | currency}}</strong>
+    </p>
+  </div>
+</div>

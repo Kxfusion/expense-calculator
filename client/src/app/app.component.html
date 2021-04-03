@@ -1,0 +1,13 @@
+<div class="app-container">
+  <h1>Expense Calculator</h1>
+  <div class="person-info-container">
+    <h3>Expense Reports</h3>
+    <app-person-info *ngFor="let entry of expenseReports" [expenseReport]="entry"></app-person-info>
+  </div>
+  <div class="ui-container">
+    <app-add-person></app-add-person>
+    <app-calculate-money-owed></app-calculate-money-owed>
+  </div>
+</div>
+
+<router-outlet></router-outlet>

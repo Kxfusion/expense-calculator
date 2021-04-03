@@ -1,0 +1,17 @@
+.calculate-button {
+  margin-bottom: 5px;
+}
+
+.owed-money-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.owed-money-entry {
+  margin: 3px;
+  padding: 0px 1px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(252, 221, 255);
+}

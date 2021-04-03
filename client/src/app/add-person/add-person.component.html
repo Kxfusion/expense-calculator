@@ -1,0 +1,10 @@
+<p>Add a person and their expenses</p>
+<form (ngSubmit)="submitNewExpenseReport()" #expenseReportForm="ngForm">
+  <label class="form-label" for="name"><strong>Name</strong></label>
+  <input class="form-input" type="text" id="name" required [(ngModel)]="expenseReport.name" name="name"/>
+  <br/>
+  <label class="form-label" for="expenses"><strong>Expenses</strong></label>
+  <input class="form-input" type="number" id="expenses" required [(ngModel)]="expenseReport.expenses" name="expenses"/>
+  <br/>
+  <button class="form-submit" type="submit" [disabled]="isInputInvalid">Add Person</button>
+</form>
